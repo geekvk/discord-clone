@@ -6,7 +6,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectUser } from "./features/userSlice"; 
 import Login from "./Login";
 import { auth } from './firebase';
-import { login, logout} from "./features/userSlice"
+import { login, logout} from "./features/userSlice";
+
+
 function App() {
   const dispatch = useDispatch(); // puth data to data layer /react- REDUX
   const user = useSelector(selectUser);
