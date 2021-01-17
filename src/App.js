@@ -8,7 +8,7 @@ import Login from "./Login";
 import { auth } from './firebase';
 import { login, logout} from "./features/userSlice";
 
-
+//Auther : Vijana Maparathna
 function App() {
   const dispatch = useDispatch(); // puth data to data layer /react- REDUX
   const user = useSelector(selectUser);
