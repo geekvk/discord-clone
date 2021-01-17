@@ -1,0 +1,16 @@
+.sidebarchannel:hover > h4 {
+  background-color: #40464b;
+  color: white;
+}
+.sidebarchannel > h4 {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  background-color: #2f3135;
+  color: gray;
+  cursor: pointer;
+}
+.sidebarchannel__hash {
+  font-size: 30px;
+  padding-left: 8px;
+}
